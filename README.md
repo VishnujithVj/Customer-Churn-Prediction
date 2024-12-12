@@ -50,12 +50,23 @@ Customer churn prediction aims to identify customers who are likely to stop usin
    python scripts/predict.py --input new_data.csv
    ```
 
+
 ## Results
-The best-performing model achieved the following metrics:
-- **Accuracy**: 87%
-- **Precision**: 84%
-- **Recall**: 81%
-- **F1-score**: 82%
+The final accuracy and classification report of the best-performing model are as follows:
+
+### Model: Random Forest
+- **Accuracy**: 0.9570
+- **Classification Report**:
+  ```plaintext
+               precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95       551
+           1       0.96      0.96      0.96       611
+
+    accuracy                           0.96      1162
+   macro avg       0.96      0.96      0.96      1162
+weighted avg       0.96      0.96      0.96      1162
+  ```
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with improvements.
