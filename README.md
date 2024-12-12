@@ -15,24 +15,6 @@ Customer churn prediction aims to identify customers who are likely to stop usin
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
 - **Tools**: Jupyter Notebook
 
-## Folder Structure
-```plaintext
-customer-churn-prediction/
-├── data/
-│   ├── raw_data.csv         # Raw dataset
-│   ├── processed_data.csv   # Cleaned dataset
-├── notebooks/
-│   ├── eda.ipynb            # Exploratory Data Analysis
-│   ├── model_training.ipynb # Model training and evaluation
-├── scripts/
-│   ├── preprocess.py        # Data preprocessing functions
-│   ├── train_model.py       # Model training script
-│   ├── predict.py           # Prediction script
-├── models/
-│   ├── model.sav            # Saved trained model
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
-```
 
 ## Installation
 1. Clone the repository:
